@@ -367,6 +367,10 @@ ul.row {
     list-style: none;
 }
 
+.row {
+    display: flex;
+}
+
 [class*='col-'] {
     margin: 1rem;
 }
@@ -379,19 +383,14 @@ ul.row {
     width: calc((100% / 2) - 2rem);
 }
 
-.row {
-    display: flex;
-}
-
 /* Navbar
       ============================= */
-
 .nav {
+    display: flex;
     margin: 0;
     padding: 0;
     list-style: none;
     text-align: center;
-    display: flex;
 }
 
 .nav .nav-item {
@@ -401,7 +400,7 @@ ul.row {
     letter-spacing: var(--nav-item-letter-spacing);
 }
 
-.nav-item+.nav-item {
+.nav .nav-item+.nav-item {
     margin: var(--nav-item-margin);
 }
 
@@ -553,9 +552,7 @@ ul.row {
 /* Section SERVICES ============================= */
 .section-services .row {
     flex-wrap: wrap;
-
 }
-
 
 /*** 4. CARD ***/
 
