@@ -367,6 +367,10 @@ ul.row {
     list-style: none;
 }
 
+.row {
+    display: flex;
+}
+
 [class*='col-'] {
     margin: 1rem;
 }
@@ -379,13 +383,8 @@ ul.row {
     width: calc((100% / 2) - 2rem);
 }
 
-.row {
-    display: flex;
-}
-
 /* Navbar
       ============================= */
-
 .nav {
     display: flex;
     margin: 0;
@@ -553,9 +552,7 @@ ul.row {
 /* Section SERVICES ============================= */
 .section-services .row {
     flex-wrap: wrap;
-
 }
-
 
 /*** 4. CARD ***/
 
