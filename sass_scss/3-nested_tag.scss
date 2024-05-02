@@ -1,0 +1,10 @@
+/* a Sass file that use nested declarations to assign margin and padding to the HTML tags body and p. */
+
+body {
+    margin: 0;
+    padding: 0;
+
+    p {
+        margin: 10px;
+    }
+}
